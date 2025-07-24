@@ -1,0 +1,143 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.text-center{
+    text-align: center;
+}
+.display-flex{
+    display: flex;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 150px;
+}
+/* dark 1 */
+.text-color-1{
+    color: rgba(37, 36, 50, 1);
+    font-weight: 46px;
+    font-size: 700;
+}
+/* dark 2 */
+.text-color-2{
+    color: rgba(137, 135, 161, 1);
+}
+ .bg-light{
+    background-color:rgba(255, 255, 255, 1);
+ }
+/* navbar */
+.navbar{
+   justify-content: space-between;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right:30px ;
+}
+.nav-link{
+    text-decoration: none;
+}
+nav{
+    margin: 30px auto;
+    max-width: 1140px;
+
+}
+/* banner style */
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+}
+.text-primary{
+    color:#E95A08;
+    margin: 36px 94px 80px 94px;
+    
+}
+.banner-picture{
+    width: 570px;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 221px 160px 0 140px;
+}
+.banner-content{
+    max-width: 570px;
+}
+/* flower section style */
+.flowers-container{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     gap: 20px;
+     
+}
+.flowers{
+    padding: 20px;
+    
+}
+
+.btn-primary{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding: 19px 80px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.text-primary{
+    color: #E95A08;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.section-description{
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+
+/* flower and plants */
+/* .plants{
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.plants-picture{
+
+}
+.lover{
+    display: flex;
+} */
+
+.lover{
+    /* display: flex; */
+    flex-direction: row;
+
+}
+.plants-picture{
+    background-image: url('../assets/flower-store.png');
+}
