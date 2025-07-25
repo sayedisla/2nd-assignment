@@ -65,7 +65,7 @@ nav{
 }
 .text-primary{
     color:#E95A08;
-    margin: 36px 94px 80px 94px;
+    margin: 10px 20px 15px 20px;
     
 }
 .banner-picture{
@@ -104,6 +104,7 @@ nav{
 }
 .text-primary{
     color: #E95A08;
+    margin: 0 auto;
 }
 
 .section-title{
@@ -115,29 +116,257 @@ nav{
 
 .section-description{
     color: rgba(0, 0, 0, 0.5);
-    
-}
-
-/* flower and plants */
-/* .plants{
-    font-weight: bold;
-    font-size: 50px;
-    display: flex;
-    align-items: center;
-}
-
-.plants-picture{
 
 }
-.lover{
-    display: flex;
-} */
 
-.lover{
-    /* display: flex; */
-    flex-direction: row;
+.lover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  justify-content: right;
+           justify-items: center;
+}
+
+.plants-picture {
+  background-image: url('../assets/flower-store.png');
+  background-size: cover;
+  background-position: top bottom ;
+ 
+  width: 50%;             
+  height: 100%;            
+}
+
+.plants-text {
+  width: 50%;            
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;      
+  text-align: center;
+}
+
+.plants { 
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.plants-description {
+  font-size: 18px;
+}
+
+
+.latest{
+   font-weight: bold; 
+   font-size: 50px;
 
 }
-.plants-picture{
-    background-image: url('../assets/flower-store.png');
+
+.text-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
 }
+
+
+/* flower */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.picture-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.small-pic {
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.pic1 {
+  background-image: url('../assets/deal-bloom.png'); 
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.pic2 {
+  background-image: url('../assets/deal-ana.png');
+   border-radius: 10px;
+}
+
+.right-side {
+  width: 100%;
+  background-image: url('../assets/deal-zabo.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 28px;
+   border-radius: 10px;
+}
+
+.overlay-text {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url('../assets/news-letter-bg.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.text-over-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+section input[type="text"]{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.background-image {
+  background-image: url('../assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.form-container input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #e65c00;
+}
+
+/* footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+.footer-brand {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-brand img {
+  width: 120px;
+}
+
+.footer-social {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.footer-social a img {
+  width: 24px;
+  margin-left: 10px;
+}
+
+.footer-links {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  min-width: 300px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
